@@ -1,0 +1,157 @@
+*{
+  font-family: 'arial';
+  box-sizing: border-box;
+  margin: 0;
+}
+.body{
+  background-color: #282D35;
+  overflow-x: hidden;
+  height: 100vh;
+
+}
+.light-body{
+  background-color: #00000009;
+  overflow-x: hidden;
+  height: 100vh;
+
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-items{
+  list-style: none;
+  display: flex;
+}
+.nav-items > li {
+  padding: 10px;
+}
+nav.logo{
+  width: 40px;
+}
+
+.container{
+  background-color: #282D35;
+}
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  background-color: #21222A;
+  padding: 20px;
+}
+.light-nav-bar{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 20px;
+}
+.nav-bar .toggle-div, .light-nav-bar .toggle-div{
+  display: flex;
+}
+.nav-bar .toggle-div h4{
+  color: white;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.light-nav-bar .toggle-div h4{
+  color: black;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.nav-bar .toggle-div p{
+  background: white;
+  height: 22px;
+  width: 60px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.light-nav-bar .toggle-div p{
+  background: black;
+  height: 22px;
+  width: 60px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.nav-bar .toggle-div p span{
+  background: black;
+  width: 25px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 2px;
+  color: transparent;
+  align-self: center;
+}
+.light-nav-bar .toggle-div p span{
+  background: white;
+  width: 25px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 2px;
+  color: transparent;
+  align-self: center;
+}
+.nav-part1{
+  display: flex;
+  color: #61DAFB
+}
+.course-title{
+color: #DEEBF8;
+}
+.main{
+  padding: 20px;
+  margin-top: 40px;
+  background-image: url("../src/assets/react.svg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 200px 150px;
+  margin-right: -6%;
+}
+.light-main{
+  padding: 20px;
+  margin-top: 40px;
+  background-image: url("../src/assets/react.svg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 200px 150px;
+  margin-right: -6%;
+}
+.fun-items{
+  background: transparent;
+
+}
+.main .items-header{
+  color: #FFFFFF;
+  font-size: 39px;
+}
+.light-main .items-header{
+  color: black;
+  font-size: 39px;
+}
+.main .fun-items > li{
+  color: #FFFFFF;
+  font-size: large;
+  margin-top: 1%;
+}
+.light-main .fun-items > li{
+  color: black;
+  font-size: large;
+  margin-top: 1%;
+}
+.main .fun-items > li::marker{
+  font-size: 1.5rem;
+  color: #61DAFB;
+  align-items: center;
+}
+.light-main .fun-items > li::marker{
+  font-size: 1.5rem;
+  color: #61DAFB;
+  align-items: center;
+}

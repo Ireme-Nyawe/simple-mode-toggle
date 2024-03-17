@@ -67,7 +67,7 @@ nav.logo{
   display: flex;
   justify-content: flex-start;
   padding: 4px;
-  border-radius: 4px;
+  border-radius: 30%;
   cursor: pointer;
 }
 .light-nav-bar .toggle-div p{
@@ -77,7 +77,7 @@ nav.logo{
   display: flex;
   justify-content: flex-end;
   padding: 4px;
-  border-radius: 4px;
+  border-radius: 30%;
   cursor: pointer;
 }
 .nav-bar .toggle-div p span{
@@ -100,7 +100,8 @@ nav.logo{
 }
 .nav-part1{
   display: flex;
-  color: #61DAFB
+  color: #61DAFB;
+  align-items: center;
 }
 .course-title{
 color: #DEEBF8;

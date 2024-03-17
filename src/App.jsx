@@ -1,3 +1,7 @@
+import NavBar from "./components/navBar";
+
 export default function App(){
-  return("app setted!")
+  return <div className="container">
+    <NavBar></NavBar>
+  </div>
 }
